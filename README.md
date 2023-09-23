@@ -27,6 +27,7 @@ Concepts of Terraform
 •	community
 •	Refer Here for providers documenation by hashicorp
 •	Note: For you reference we have used the following template
+---
 terraform {
   required_providers {
     aws = {
@@ -67,6 +68,7 @@ resource "azurerm_resource_group" "test" {
     location = "eastus"
 
 }
+---
 •	Arguments and Attributes:
 •	Argument refers to inputs in terraform
 •	Attributes refers to outputs in terraform
